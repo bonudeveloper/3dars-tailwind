@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header
+      id="main-header"
+      class="bg-orange-500 text-gray-100 py-4 text-md sticky top-0 xl:text-3xl xl:fixed xl:left-0 xl:top-[1rem] xl:bottom-[1rem] xl:-translate-x-[90%] xl:hover:translate-x-0 ease-linear duration-300 xl:rounded-r-lg"
+    >
+      <div
+        class="container mx-auto flex justify-between items-center px-4 xl:flex-col xl:h-full gap-8"
+      >
+        <a href="#">Logo</a>
+        <ul
+          class="flex-col basis-full justify-between border-t-2 pt-4 hidden xl:flex"
+        >
+          <li
+            class="bg-gray-100 text-gray-300 w-16 h-16 flex items-center justify-center rounded-full"
+          >
+            <a href="#"><i class="fa-solid fa-home"></i></a>
+          </li>
+          <li
+            class="bg-gray-100 text-gray-300 w-16 h-16 flex items-center justify-center rounded-full"
+          >
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+          </li>
+          <li
+            class="bg-gray-100 text-gray-300 w-16 h-16 flex items-center justify-center rounded-full"
+          >
+            <a href="#"><i class="fa-solid fa-briefcase"></i></a>
+          </li>
+          <li
+            class="bg-gray-100 text-gray-300 w-16 h-16 flex items-center justify-center rounded-full"
+          >
+            <a href="#"><i class="fa-solid fa-file"></i></a>
+          </li>
+          <li
+            class="bg-gray-100 text-gray-300 w-16 h-16 flex items-center justify-center rounded-full"
+          >
+            <a href="#"><i class="fa-solid fa-comment"></i></a>
+          </li>
+          <li class="flex">
+            <a href="#">🇬🇧</a>
+            <a href="#">🇮🇷</a>
+          </li>
+        </ul>
+        <i class="fa-solid fa-bars xl:hidden"></i>
+      </div>
+    </header>
+    <section id="showcase" class="py-4">
+      <div class="container mx-auto px-4 xl:p-0 xl:flex xl:items-center">
+        <div class="xl:basis-full">
+          <h2 class="text-2xl my-4">Hi!</h2>
+          <h1 class="text-4xl my-4">I'm Mohammadreza Frontend developer.</h1>
+          <p class="my-8 text-lg">
+            Frontend developer based in tehran, Iran. I am coding with a clean
+            and beautiful problem solving in mind.
+          </p>
+          <nav class="socials text-gray-100">
+            <ul class="flex gap-8 text-3xl my-8 items-center">
+              <li class="hidden xl:block text-gray-500 font-light">
+                Follow me
+              </li>
+              <li
+                class="aspect-square w-20 grid place-items-center rounded-full bg-indigo-500"
+              >
+                <a href="https://facebook.com" target="_blank">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li
+                class="aspect-square w-20 grid place-items-center rounded-full bg-pink-500"
+              >
+                <a href="https://twitter.com" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li
+                class="aspect-square w-20 grid place-items-center rounded-full bg-blue-500"
+              >
+                <a href="https://instagram.com" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li
+                class="aspect-square w-20 grid place-items-center rounded-full bg-orange-400"
+              >
+                <a href="https://telegram.org" target="_blank">
+                  <i class="fa-solid fa-paper-plane"></i>
+                </a>
+              </li>
+            </ul>
+            <div class="flex gap-8">
+              <a
+                href="#"
+                class="inline-block border-2 border-rose-500 bg-rose-500 py-2 px-6 rounded-lg"
+                >Send Request</a
+              >
+              <a
+                href="#"
+                class="inline-block border-2 border-rose-500 py-2 px-6 rounded-lg text-gray-500"
+                >Download CV</a
+              >
+            </div>
+          </nav>
+        </div>
+        <div class="hidden xl:block xl:basis-full relative z-10">
+          <img
+            src="images/bullet-points.png"
+            alt=""
+            class="w-2/3 absolute left-0 bottom-0 -z-10"
+          />
+          <img src="images/showcase.png" alt="" class="w-full" />
+          <img
+            src="images/bullet-points.png"
+            alt=""
+            class="w-2/3 absolute right-0 top-0 -z-10"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="help" class="my-4 text-gray-100 text-center xl:my-16">
+      <div
+        class="container mx-auto bg-orange-500 py-12 px-4 rounded-[50px] flex flex-col items-center xl:flex-row-reverse xl:px-16 xl:gap-16"
+      >
+        <div class="xl:basis-3/5">
+          <div class="xl:flex xl:justify-between">
+            <div>
+              <h2 class="text-5xl xl:text-7xl">120+</h2>
+              <h4 class="text-2xl">Completed Projects</h4>
+            </div>
+            <div>
+              <div
+                class="review text-green-500 flex gap-2 justify-center my-4 xl:text-2xl"
+              >
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-alt"></i>
+              </div>
+              <h4 class="text-2xl">Positive Reviews</h4>
+            </div>
+          </div>
+          <div class="text-left xl:my-12">
+            <h3 class="text-3xl xl:text-5xl">Glad to Help You!</h3>
+            <p class="text-xl leading-10 xl:text-3xl xl:leading-relaxed">
+              As a web developer, I'm very keen on learning new and pioneering
+              technologies, programming languages, and development techniques.
+            </p>
+          </div>
+        </div>
+        <img src="images/help.png" class="xl:basis-2/5" alt="" />
+      </div>
+    </section>
+    <section id="hire" class="text-center my-4">
+      <div class="container mx-auto px-4">
+        <h2 class="text-5xl my-8 xl:text-7xl">Why hire me?</h2>
+        <div
+          class="flex flex-col items-center gap-8 xl:flex-row xl:justify-center"
+        >
+          <div class="w-60 flex flex-col items-center py-8 px-4">
+            <img src="images/card.png" alt="" />
+            <h4 class="text-3xl mt-12 mb-8">Communicative</h4>
+            <p class="text-lg text-gray-500">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+          </div>
+          <div class="w-60 flex flex-col items-center py-8 px-4">
+            <img src="images/card.png" alt="" />
+            <h4 class="text-3xl mt-12 mb-8">Communicative</h4>
+            <p class="text-lg text-gray-500">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+          </div>
+          <div class="w-60 flex flex-col items-center py-8 px-4">
+            <img src="images/card.png" alt="" />
+            <h4 class="text-3xl mt-12 mb-8">Communicative</h4>
+            <p class="text-lg text-gray-500">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+          </div>
+          <div class="w-60 flex flex-col items-center py-8 px-4">
+            <img src="images/card.png" alt="" />
+            <h4 class="text-3xl mt-12 mb-8">Communicative</h4>
+            <p class="text-lg text-gray-500">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container mx-auto px-4 my-4">
+        <h2 class="text-3xl xl:text-5xl my-7">Portfolio</h2>
+        <div class="flex flex-wrap gap-4">
+          <img src="./images/about1.png" alt="">
+          <img src="./images/about2.png" alt="">
+          <img src="./images/about3.png" alt="">
+          <img src="./images/about4.png" alt="">
+        </div>
+        <h3 class="text-xl text-neutral-500 text-end my-3">See more</h3>
+      </div>
+    </section>
+    <section id="blog">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl xl:text-5xl">Blog</h2>
+        <div class="w-full overflow-x-auto">
+          <div class="flex my-8 w-max gap-8">
+            <div class="w-72 bg-gray-100 rounded-lg p-4 shadow">
+              <img src="images/blog.png" class="w-full" alt="" />
+              <h4 class="text-xl font-semibold my-6">
+                How to make web tempates
+              </h4>
+              <p class="text-md font-light text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                nulla diam in ac dictum a urna
+              </p>
+              <div class="text-end">
+                <span
+                  class="inline-flex w-16 h-16 bg-white items-center justify-center rounded-full text-gray-500"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+            <div class="w-72 bg-gray-100 rounded-lg p-4 shadow">
+              <img src="images/blog.png" class="w-full" alt="" />
+              <h4 class="text-xl font-semibold my-6">
+                How to make web tempates
+              </h4>
+              <p class="text-md font-light text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                nulla diam in ac dictum a urna
+              </p>
+              <div class="text-end">
+                <span
+                  class="inline-flex w-16 h-16 bg-white items-center justify-center rounded-full text-gray-500"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+            <div class="w-72 bg-gray-100 rounded-lg p-4 shadow">
+              <img src="images/blog.png" class="w-full" alt="" />
+              <h4 class="text-xl font-semibold my-6">
+                How to make web tempates
+              </h4>
+              <p class="text-md font-light text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                nulla diam in ac dictum a urna
+              </p>
+              <div class="text-end">
+                <span
+                  class="inline-flex w-16 h-16 bg-white items-center justify-center rounded-full text-gray-500"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+            <div class="w-72 bg-gray-100 rounded-lg p-4 shadow">
+              <img src="images/blog.png" class="w-full" alt="" />
+              <h4 class="text-xl font-semibold my-6">
+                How to make web tempates
+              </h4>
+              <p class="text-md font-light text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                nulla diam in ac dictum a urna
+              </p>
+              <div class="text-end">
+                <span
+                  class="inline-flex w-16 h-16 bg-white items-center justify-center rounded-full text-gray-500"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+            <div class="w-72 bg-gray-100 rounded-lg p-4 shadow">
+              <img src="images/blog.png" class="w-full" alt="" />
+              <h4 class="text-xl font-semibold my-6">
+                How to make web tempates
+              </h4>
+              <p class="text-md font-light text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                nulla diam in ac dictum a urna
+              </p>
+              <div class="text-end">
+                <span
+                  class="inline-flex w-16 h-16 bg-white items-center justify-center rounded-full text-gray-500"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
